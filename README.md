@@ -2,6 +2,10 @@
 
 This is a [Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) game application.
 
+### Rules
+
+Valid rules for game are placed under `lib/game_rules/`. They return **true** or **false**, for alive or dead cell status, respectively. Or **nil** if no action required.
+
 ## Development
 
 ### Ruby Version
