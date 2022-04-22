@@ -6,6 +6,16 @@ This is a [Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) 
 
 A **Cell** represents a node or "pixel" within the game.
 
+To run app:
+
+```
+$ bundle install
+$ yarn install
+$ rails s
+```
+
+Visit **http://localhost:3000**.
+
 ### Rules
 
 Valid rules for game are placed under `lib/game_rules/`. They return **true** or **false**, for alive or dead cell status, respectively. Or **nil** if no action required.
@@ -35,3 +45,9 @@ Node version is placed in `.nvmrc` file. You may use a Node Version Manager like
 Yarn is used for JavaScript package manager.
 
 ```$ yarn install```
+
+### Testing
+
+Ruby and RoR code is coverd. To run:
+
+```$ bundle exec rspec```
