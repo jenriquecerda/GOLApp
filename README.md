@@ -14,6 +14,21 @@ $ yarn install
 $ rails s
 ```
 
+Or with **Docker**:
+
+First pre-compile assets using appropriate Node version (specified in .nvmrc)
+
+```
+$ yarn install
+$ bundle exec rails webpacker:compile
+```
+
+And run container:
+
+```
+$ docker-compose up
+```
+
 Visit **http://localhost:3000**.
 
 ### Rules

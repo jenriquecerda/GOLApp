@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+  app-fe:
+    restart: always
+    build: .
+    container_name: life-app
+    ports:
+      - target: 3000
+        published: 3000
+    volumes:
+      - .:/app

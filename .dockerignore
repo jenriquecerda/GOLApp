@@ -1,0 +1,10 @@
+public/packs
+public/packs-test
+.nvmrc
+.rspec
+.rubocop.yml
+.ruby-version
+.byebug_history
+babel.config.js
+yarn-error.log
+log
